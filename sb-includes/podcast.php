@@ -110,17 +110,18 @@ echo '<?xml version="1.0" encoding="UTF-8"?>'."\n";
 <channel>
 	<atom:link href="<?php echo sb_xml_entity_encode(sb_get_option('podcast_url')) ?>" rel="self" type="application/rss+xml" />
 	<title><?php echo sb_xml_entity_encode(get_bloginfo('name')) ?> Podcast</title>
-	<itunes:author></itunes:author>
+	<itunes:author>CTK Roanoke</itunes:author>
 	<description><?php echo sb_xml_entity_encode(get_bloginfo('description')) ?></description>
 	<link><?php echo sb_xml_entity_encode(site_url()) ?></link>
 	<language>en-us</language>
-	<copyright></copyright>
+	<copyright>Copyright 2014 Christ the King Presbyterian Church in Roanoke, VA</copyright>
 	<itunes:explicit>no</itunes:explicit>
 	<itunes:owner>
-		<itunes:name></itunes:name>
-		<itunes:email></itunes:email>
+		<itunes:name>Daniel Vos</itunes:name>
+		<itunes:email>daniel@fivemoretalents.com</itunes:email>
 	</itunes:owner>
-
+	<itunes:image href="http://www.ctkroanoke.org/wp-content/uploads/2013/12/ctk-logo-for-itunes-1400x1400.png" />
+	
 	<lastBuildDate><?php sb_print_iso_date(isset($sermons[0]) ? $sermons[0]: time()) ?></lastBuildDate>
 	<pubDate><?php sb_print_iso_date(isset($sermons[0]) ? $sermons[0]: time()) ?></pubDate>
 	<generator>Wordpress Sermon Browser plugin <?php echo SB_CURRENT_VERSION ?> (http://www.sermonbrowser.com/)</generator>
