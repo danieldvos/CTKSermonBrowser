@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Sermon Browser
+Plugin Name: Sermon Browser - Customized for CTK Roanoke
 Plugin URI: http://www.sermonbrowser.com/
 Description: Upload sermons to your website, where they can be searched, listened to, and downloaded. Easy to use with comprehensive help and tutorials.
 Author: Mark Barnes
